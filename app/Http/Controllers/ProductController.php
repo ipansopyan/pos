@@ -88,6 +88,6 @@ class ProductController extends Controller
     }
     public function exportData() 
     {
-        return Excel::download(new ProductExport(''), 'products.xlsx');
+        return (new ProductExport)->download('products.xlsx');
     }
 }

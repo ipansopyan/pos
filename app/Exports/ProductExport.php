@@ -5,20 +5,24 @@ namespace App\Exports;
 use App\Product;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\FromQuery;
+use Maatwebsite\Excel\Concerns\FromView;
+use Maatwebsite\Excel\Concerns\Exportable;
+use Illuminate\Contracts\View\View;
 
 
-class ProductExport implements FromQuery
+
+
+class ProductExport implements FromView
 {
     /**
     * @return \Illuminate\Support\Collection
     */
-    public function __construct(string $name)
+    use Exportable;
+    
+    public function view(): View
     {
-        $this->name = $name;
-    }
-
-    public function query()
-    {
-        return Product::query()->where('name', 'like', '%'. $this->name);
+        return view('product', [
+            'products' => Product::all()
+        ]);
     }
 }
