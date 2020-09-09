@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
 Route::group([
 
@@ -35,3 +35,9 @@ Route::group([
 Route::get('products','ProductController@index');
 Route::put('product/{product}', 'ProductController@update');
 Route::post('product/create', 'ProductController@create');
+
+Route::get('/products/export', 'ProductController@exportData');
+Route::post('/imports','ProductController@storeData');
+
+
+

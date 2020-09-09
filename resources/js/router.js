@@ -5,6 +5,7 @@ import Vuerouter from 'vue-router'
 
 import WelcomePage from './components/welcome/welcome'
 import Dashboard from './components/dashboard/admin'
+import Excel from './components/dashboard/excel'
 
 Vue.use(Vuerouter)
 
@@ -19,6 +20,11 @@ const routes = [
   name : 'admin',
   component: Dashboard
   },
+  {
+    path : '/excel',
+    name : 'excel',
+    component: Excel
+    },
 ]
 
 export default new Vuerouter({mode: 'history', routes})

@@ -16,6 +16,35 @@ const product = {
         }
     },
     actions: {
+        productIm({ state, dispatch }, formData) {
+            axios.post("/api/imports", formData, {
+                headers: {
+                    "Content-Type": "multipart/form-data"
+                }
+            })
+                .then(res => {
+                    dispatch('allproduct')
+                })
+                .catch(function () {
+                    console.log("FAILURE!!");
+                });
+        },
+
+        productEx() {
+            let url = '/api/products/export'
+            axios({
+                url: url,
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                }
+            }).then((res) => {
+                router.go('/api/products/export')
+            }).catch(error => {
+                console.log('error');
+            })
+        },
         allproduct({ state, commit }, product) {
             let url = '/api/products';
             axios({
@@ -33,8 +62,8 @@ const product = {
                 console.log('error');
             })
         },
-        addProduct({ state, commit,dispatch }, productData) {
-            
+        addProduct({ state, commit, dispatch }, productData) {
+
             axios.post('/api/product/create', {
                 name: productData.name,
                 kode: productData.kode,

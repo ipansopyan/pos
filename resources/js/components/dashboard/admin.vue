@@ -32,223 +32,19 @@
               <h3>General</h3>
               <ul class="nav side-menu">
                 <li>
+                  <router-link :to="{name:'excel'}">
+                    <i class="ti-dashboard"></i>
+                    <span>Dashboard</span>
+                  </router-link>
                   <a>
                     <i class="fa fa-home"></i> Home
                     <span class="fa fa-chevron-down"></span>
                   </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="index.html">Dashboard</a>
-                    </li>
-                    <li>
-                      <a href="index2.html">Dashboard2</a>
-                    </li>
-                    <li>
-                      <a href="index3.html">Dashboard3</a>
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <a>
-                    <i class="fa fa-edit"></i> Forms
+                    <i class="fa fa-home"></i> tabel
                     <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="form.html">General Form</a>
-                    </li>
-                    <li>
-                      <a href="form_advanced.html">Advanced Components</a>
-                    </li>
-                    <li>
-                      <a href="form_validation.html">Form Validation</a>
-                    </li>
-                    <li>
-                      <a href="form_wizards.html">Form Wizard</a>
-                    </li>
-                    <li>
-                      <a href="form_upload.html">Form Upload</a>
-                    </li>
-                    <li>
-                      <a href="form_buttons.html">Form Buttons</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>
-                    <i class="fa fa-desktop"></i> UI Elements
-                    <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="general_elements.html">General Elements</a>
-                    </li>
-                    <li>
-                      <a href="media_gallery.html">Media Gallery</a>
-                    </li>
-                    <li>
-                      <a href="typography.html">Typography</a>
-                    </li>
-                    <li>
-                      <a href="icons.html">Icons</a>
-                    </li>
-                    <li>
-                      <a href="glyphicons.html">Glyphicons</a>
-                    </li>
-                    <li>
-                      <a href="widgets.html">Widgets</a>
-                    </li>
-                    <li>
-                      <a href="invoice.html">Invoice</a>
-                    </li>
-                    <li>
-                      <a href="inbox.html">Inbox</a>
-                    </li>
-                    <li>
-                      <a href="calendar.html">Calendar</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>
-                    <i class="fa fa-table"></i> Tables
-                    <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="tables.html">Tables</a>
-                    </li>
-                    <li>
-                      <a href="tables_dynamic.html">Table Dynamic</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>
-                    <i class="fa fa-bar-chart-o"></i> Data Presentation
-                    <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="chartjs.html">Chart JS</a>
-                    </li>
-                    <li>
-                      <a href="chartjs2.html">Chart JS2</a>
-                    </li>
-                    <li>
-                      <a href="morisjs.html">Moris JS</a>
-                    </li>
-                    <li>
-                      <a href="echarts.html">ECharts</a>
-                    </li>
-                    <li>
-                      <a href="other_charts.html">Other Charts</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>
-                    <i class="fa fa-clone"></i>Layouts
-                    <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="fixed_sidebar.html">Fixed Sidebar</a>
-                    </li>
-                    <li>
-                      <a href="fixed_footer.html">Fixed Footer</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="menu_section">
-              <h3>Live On</h3>
-              <ul class="nav side-menu">
-                <li>
-                  <a>
-                    <i class="fa fa-bug"></i> Additional Pages
-                    <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="e_commerce.html">E-commerce</a>
-                    </li>
-                    <li>
-                      <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                      <a href="project_detail.html">Project Detail</a>
-                    </li>
-                    <li>
-                      <a href="contacts.html">Contacts</a>
-                    </li>
-                    <li>
-                      <a href="profile.html">Profile</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>
-                    <i class="fa fa-windows"></i> Extras
-                    <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="page_403.html">403 Error</a>
-                    </li>
-                    <li>
-                      <a href="page_404.html">404 Error</a>
-                    </li>
-                    <li>
-                      <a href="page_500.html">500 Error</a>
-                    </li>
-                    <li>
-                      <a href="plain_page.html">Plain Page</a>
-                    </li>
-                    <li>
-                      <a href="login.html">Login Page</a>
-                    </li>
-                    <li>
-                      <a href="pricing_tables.html">Pricing Tables</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>
-                    <i class="fa fa-sitemap"></i> Multilevel Menu
-                    <span class="fa fa-chevron-down"></span>
-                  </a>
-                  <ul class="nav child_menu">
-                    <li>
-                      <a href="#level1_1">Level One</a>
-                    </li>
-                    <li>
-                      <a>
-                        Level One
-                        <span class="fa fa-chevron-down"></span>
-                      </a>
-                      <ul class="nav child_menu">
-                        <li class="sub_menu">
-                          <a href="level2.html">Level Two</a>
-                        </li>
-                        <li>
-                          <a href="#level2_1">Level Two</a>
-                        </li>
-                        <li>
-                          <a href="#level2_2">Level Two</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#level1_2">Level One</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-laptop"></i> Landing Page
-                    <span class="label label-success pull-right">Coming Soon</span>
                   </a>
                 </li>
               </ul>
@@ -313,35 +109,19 @@
               </li>
 
               <li role="presentation" class="nav-item dropdown open">
-                <a
-                  href="javascript:;"
-                  class="dropdown-toggle info-number"
-                  id="navbarDropdown1"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <i class="fa fa-envelope-o"></i>
-                  <span class="badge bg-green">6</span>
-                </a>
+                <a href="#" @click="scanon">on</a>
+                <a href="#" @click="scanoff">off</a>
+                <a href="http://127.0.0.1:8000/api/products/export">ex</a>
+                <b-modal ref="scan" hide-footer title="tambah produknya di modal ini">
+                  <qrcode-stream :camera="camera" @decode="onDecode" @init="onInit"></qrcode-stream>
+                </b-modal>
+
                 <ul
                   class="dropdown-menu list-unstyled msg_list"
                   role="menu"
                   aria-labelledby="navbarDropdown1"
                 >
-                  <li class="nav-item">
-                    <a class="dropdown-item">
-                      <span class="image">
-                        <img src="images/img.jpg" alt="Profile Image" />
-                      </span>
-                      <span>
-                        <span>John Smith</span>
-                        <span class="time">3 mins ago</span>
-                      </span>
-                      <span
-                        class="message"
-                      >Film festivals used to be do-or-die moments for movie makers. They were where...</span>
-                    </a>
-                  </li>
+                  <li class="nav-item"></li>
                   <li class="nav-item">
                     <a class="dropdown-item">
                       <span class="image">
@@ -405,10 +185,17 @@
         <div class>
           <div class="page-title">
             <div class="title_left">
-              <h3>
-                Invoice
-                <small></small>
-              </h3>
+              <input
+                type="file"
+                class="form-control"
+                :class="{ ' is-invalid' : error.message }"
+                id="file"
+                name="file_import"
+                ref="file"
+                v-on:change="handleFileUpload()"
+              />
+              <div v-if="error.message" class="invalid-feedback"></div>
+              <button @click.prevent="proceedAction()">add procuk</button>
             </div>
 
             <div class="title_right">
@@ -420,7 +207,7 @@
                       <div class="d-block text-center">
                         <h3>modal dari keyboard event</h3>
                         <b-input-group class="mt-3">
-                          <b-form-input v-model="newProduct.name" placeholder="name"></b-form-input>
+                          <b-form-input autofocus v-model="newProduct.name" placeholder="name"></b-form-input>
                         </b-input-group>
                         <b-input-group class="mt-3">
                           <b-form-input v-model="newProduct.kode" placeholder="kode"></b-form-input>
@@ -429,7 +216,11 @@
                           <b-form-input v-model="newProduct.jml" placeholder="jml"></b-form-input>
                         </b-input-group>
                         <b-input-group class="mt-3">
-                          <b-form-input v-model="newProduct.count" placeholder="harga"></b-form-input>
+                          <b-form-input
+                            @keyup.enter="tambahP"
+                            v-model="newProduct.count"
+                            placeholder="harga"
+                          ></b-form-input>
                         </b-input-group>
                         <b-input-group class="mt-3">
                           <button @click.prevent="tambahP">add procuk</button>
@@ -482,77 +273,70 @@
                       </div>
                     </div>
                     <!-- Table row -->
-                    <div class="row" v-show="myCart">
-                      <div class="table">
-                        <table class="table table-striped">
-                          <thead>
-                            <tr>
-                              <th>id</th>
-                              <th>name</th>
-                              <th>harga</th>
-                              <th>qty</th>
-                              <th>Subtotal</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr v-for="(cartItem,index) in cartItems" :key="cartItem.length">
-                              <td>{{index+1}}</td>
-                              <td>{{cartItem.name}}</td>
-                              <td>{{cartItem.count| currency }}</td>
-                              <td>{{cartItem.qty}}</td>
-                              <td>{{cartItem.count*cartItem.qty |currency }}</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
-
-                    <div class="row" v-show="myCart">
-                      <div class="col-md-6">
-                        <p class="lead">Total belanja</p>
-                        <div class="table-responsive">
-                          <table class="table">
+                    <div id="printMe">
+                      <div class="container" v-show="myCart">
+                        <div class="table">
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>id</th>
+                                <th>name</th>
+                                <th>harga</th>
+                                <th>qty</th>
+                                <th>Subtotal</th>
+                              </tr>
+                            </thead>
                             <tbody>
-                              <tr>
-                                <th style="width:50%">Subtotal:</th>
-                                <td>{{Total | currency }}</td>
-                              </tr>
-                              <tr>
-                                <th>Disc (10%)</th>
-                                <td>{{(10*Total)/100 | currency }}</td>
-                              </tr>
-                              <!-- <tr>
-                                <th>Shipping:</th>
-                                <td>$5.80</td>
-                              </tr>-->
-                              <tr>
-                                <th>Total:</th>
-                                <td>{{ Total-((10*Total)/100) | currency }}</td>
+                              <tr v-for="(cartItem,index) in cartItems" :key="cartItem.length">
+                                <td>{{index+1}}</td>
+                                <td>{{cartItem.name}}</td>
+                                <td>{{cartItem.count| currency }}</td>
+                                <td>{{cartItem.qty}}</td>
+                                <td>{{cartItem.count*cartItem.qty |currency }}</td>
                               </tr>
                             </tbody>
                           </table>
                         </div>
+                        <!-- /.col -->
                       </div>
-                      <!-- /.col -->
+                      <!-- /.row -->
+
+                      <div class="container" v-show="myCart">
+                        <div class="col-md-6">
+                          <p class="lead">Total belanja</p>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <th style="width:50%">Subtotal:</th>
+                                  <td>{{Total | currency }}</td>
+                                </tr>
+                                <tr>
+                                  <th>Disc (10%)</th>
+                                  <td>{{(10*Total)/100 | currency }}</td>
+                                </tr>
+                                <tr v-show="bunga">
+                                  <th>bunga: 5%</th>
+                                  <td>{{(rose*Total)/100}}</td>
+                                </tr>
+                                <tr>
+                                  <th>Total:</th>
+                                  <td>{{ (rose*Total)/100+Total-((10*Total)/100) | currency }}</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                      </div>
                     </div>
                     <!-- /.row -->
-
+                    <button v-show="myCart" class="btn btn-default" @click="cash">cash</button>
+                    <button v-show="myCart" class="btn btn-default" @click="kredit">kredit</button>
+                    <button v-show="myCart" class="btn btn-default" @click="print">
+                      <i class="fa fa-print"></i> cetak
+                    </button>
                     <!-- this row will not appear when printing -->
-                    <!-- <div class="row no-print">
-                      <div class>
-                        <button class="btn btn-default" onclick="window.print();">
-                          <i class="fa fa-print"></i> Print
-                        </button>
-                        <button @click.prevent="submit" class="btn btn-success pull-right">
-                          <i class="fa fa-credit-card"></i> Submit Payment
-                        </button>
-                        <button class="btn btn-primary pull-right" style="margin-right: 5px;">
-                          <i class="fa fa-download"></i> Generate PDF
-                        </button>
-                      </div>
-                    </div>-->
                   </section>
                 </div>
               </div>
@@ -565,7 +349,9 @@
       <!-- footer content -->
       <footer>
         <div class="pull-right">
-          Gentelella - Bootstrap Admin Template by
+          <!-- <qrcode-stream></qrcode-stream> -->
+          <p>{{result}}</p>
+
           <a href="https://colorlib.com">Colorlib</a>
         </div>
         <div class="clearfix"></div>
@@ -575,6 +361,7 @@
   </div>
 </template>
 <script>
+import { QrcodeStream, QrcodeDropZone, QrcodeCapture } from "vue-qrcode-reader";
 export default {
   data() {
     return {
@@ -582,15 +369,108 @@ export default {
       cartCount: 0,
       myCart: false,
       newProduct: {},
+      output: null,
+      bunga: false,
+      rose: 0,
+      isValid: undefined,
+      camera: "off",
+      result: null,
+      error: "",
+      file: "",
+      barangBaru: [
+        {
+          name: "gula",
+          kode: "brg001",
+          jml: 1,
+          count: 1200,
+          user_id: 1
+        },
+        {
+          name: "uyah",
+          kode: "brg002",
+          jml: 1,
+          count: 1000,
+          user_id: 1
+        }
+      ]
     };
   },
+  components: {
+    QrcodeStream,
+    QrcodeDropZone,
+    QrcodeCapture
+  },
   methods: {
+    handleFileUpload(e) {
+      this.file = this.$refs.file.files[0];
+    },
+
+    proceedAction() {
+      let formData = new FormData();
+      formData.append("file", this.file);
+      this.$store.dispatch("productIm", formData);
+      this.$refs.file.value = "";
+      this.file = "";
+    },
+    productEx() {
+      this.$store.dispatch("productEx");
+    },
+    onInit(promise) {
+      promise.catch(console.error).then(this.resetValidationState);
+    },
+    async onDecode(content) {
+      this.result = content;
+      let b = this.barangBaru.filter(brg => brg.kode == this.result);
+
+      if (b.length > 0) {
+        console.log("ada");
+
+        this.$store.dispatch("addProduct", {
+          name: b[0].name,
+          kode: b[0].kode,
+          jml: b[0].jml,
+          count: b[0].count
+        });
+      } else {
+        console.log("brg dak ada");
+      }
+
+      this.scanoff();
+    },
+    turnCameraOn() {
+      this.camera = "auto";
+    },
+
+    turnCameraOff() {
+      this.camera = "off";
+    },
+    kredit() {
+      this.bunga = true;
+      this.rose = 5;
+    },
+    cash() {
+      this.rose = 0;
+      this.bunga = false;
+      // console.log(this.Total);
+      // this.$htmlToPaper("printMe");
+    },
+    print() {
+      this.$htmlToPaper("printMe");
+    },
     addToCart(item) {
       this.myCart = true;
       this.$store.commit("addToCart", item);
     },
     toggleModal() {
       this.$refs["my-modal"].show();
+    },
+    scanon() {
+      this.$refs["scan"].show();
+      this.turnCameraOn();
+    },
+    scanoff() {
+      this.$refs["scan"].hide();
+      this.turnCameraOff();
     },
     toggleModalh() {
       this.$refs["my-modal"].hide();
@@ -600,22 +480,24 @@ export default {
         name: this.newProduct.name,
         kode: this.newProduct.kode,
         jml: this.newProduct.jml,
-        count: this.newProduct.count,
+        count: this.newProduct.count
       };
       this.$store.dispatch("addProduct", {
         name: productData.name,
         kode: productData.kode,
         jml: productData.jml,
-        count: productData.count,
+        count: productData.count
       });
       this.toggleModalh();
-    },
+    }
   },
   mounted() {
     this.$store.dispatch("allproduct");
-    window.addEventListener("keypress", (e) => {
+    window.addEventListener("keypress", e => {
       if (e.key == "a") {
         this.toggleModal();
+      } else if (e.key == "q") {
+        this.scanon();
       }
     });
   },
@@ -628,12 +510,12 @@ export default {
     },
     Total() {
       let total = 0;
-      this.cartItems.forEach((item) => {
+      this.cartItems.forEach(item => {
         total += item.count * item.qty;
       });
       return total;
-    },
-  },
+    }
+  }
 };
 </script>
 <style lang="stylus"></style>
